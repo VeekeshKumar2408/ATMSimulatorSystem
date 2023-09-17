@@ -19,7 +19,7 @@ public class Conn {
            //Class.forName(com.mysql.cj.jdbc.Driver);
 
             // 2. Creating Connection
-           c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","iamgroot");
+           c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","password");
 
            //3. Create Statement , with this statement we can execute query.
            s = c.createStatement();
