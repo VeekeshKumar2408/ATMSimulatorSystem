@@ -1,42 +1,45 @@
-# Bank Management System (ATM Simulator System) - Java Project
+# Bank Management System (ATM Simulator)
 
-Welcome to the Bank Management System, also known as the ATM Simulator System. This Java project aims to provide a versatile software application that mimics the functionalities of a conventional ATM (Automated Teller Machine). The primary goal is to create a user-friendly and efficient platform for performing various banking operations, including account creation, deposits, withdrawals, and balance inquiries.
+Welcome to the Bank Management System, an ATM Simulator Java project! This software application is designed to mimic the functionalities of a traditional Automated Teller Machine (ATM). The project aims to provide a user-friendly and efficient platform for performing various banking operations, including account creation, deposits, withdrawals, and more. MySQL is employed as the underlying database to store and manage account information securely.
 
 ## Features
 
-- **User-Friendly Interface**: The application offers an intuitive and straightforward user interface, making it easy for users to perform banking operations without complications.
+- **Account Management**: Users can create new accounts, view account details, and perform various transactions seamlessly.
 
-- **Account Creation**: Users can create new bank accounts by providing necessary information such as name, address, and initial deposit amount.
+- **Deposit and Withdrawal**: The system allows users to make deposits and withdrawals, ensuring a flexible and convenient banking experience.
 
-- **Deposits and Withdrawals**: The system allows users to deposit and withdraw money from their accounts securely.
+- **Balance Inquiry**: Users can check their account balance at any time to stay informed about their financial status.
 
-- **Balance Inquiry**: Users can check their account balance at any time, providing them with real-time information about their financial status.
+- **Transaction History**: The application maintains a transaction history, enabling users to review their past transactions.
 
-- **Transaction History**: The system maintains a transaction history, allowing users to review their past transactions.
-
-- **Security Measures**: The project implements security measures to protect user information and transactions, ensuring a safe and reliable banking experience.
+- **Security Measures**: The project incorporates security measures to safeguard user information and transactions.
 
 ## Tech Stack
 
-- **Java**: The core programming language used for the backend logic and overall application structure.
+- **Java**: The core programming language used to build the application.
 
-- **Object-Oriented Programming (OOP)**: The project follows OOP principles to organize code and enhance maintainability.
+- **MySQL**: A relational database management system for storing and managing account information.
 
 ## Setup
 
-1. **Clone the Repository**:
+1. **Clone the Repository**: 
    ```bash
    git clone https://github.com/yourusername/BankManagementSystem.git
    ```
 
-2. **Run the Application**:
-   - Compile and run the Java files to start the Bank Management System application.
+2. **Database Setup**:
+   - Create a MySQL database and configure the connection details in the application code.
 
-3. **Perform Banking Operations**:
-   - Access the application through the console or a graphical user interface (GUI) to perform banking operations such as account creation, deposits, withdrawals, balance inquiries, and more.
+3. **Run the Application**:
+   - Compile and run the Java application to start the Bank Management System.
+
+## Usage
+
+- Launch the application and follow the on-screen instructions to perform various banking operations.
+- Create a new account, make deposits, withdrawals, and inquire about your balance.
 
 ## Contributing
 
-We welcome contributions to enhance the functionality and features of the Bank Management System. If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions to enhance the functionality and features of the Bank Management System are welcome. If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Happy banking with the ATM Simulator System! 💳🏦
+Happy banking with the ATM Simulator! 🏦💳
